@@ -1,10 +1,12 @@
 import os, json, sys
 from problems.TwoSum import twoSum
 from problems.CountGoodTriplets import countGoodTriplets
+from problems.DestinationCity import destCity
 
 funcs = {
     "TwoSum": twoSum,
-    "CountGoodTriplets": countGoodTriplets
+    "CountGoodTriplets": countGoodTriplets,
+    "DestinationCity": destCity
 }
 
 def runTest(params, func, tc):
