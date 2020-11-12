@@ -2,11 +2,13 @@ import os, json, sys
 from problems.TwoSum import twoSum
 from problems.CountGoodTriplets import countGoodTriplets
 from problems.DestinationCity import destCity
+from problems.DefangingIPAddress import defangIPaddr
 
 funcs = {
     "TwoSum": twoSum,
     "CountGoodTriplets": countGoodTriplets,
-    "DestinationCity": destCity
+    "DestinationCity": destCity,
+    "DefangingIPAddress": defangIPaddr
 }
 
 def runTest(params, func, tc):
