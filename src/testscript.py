@@ -3,12 +3,14 @@ from problems.TwoSum import twoSum
 from problems.CountGoodTriplets import countGoodTriplets
 from problems.DestinationCity import destCity
 from problems.DefangingIPAddress import defangIPaddr
+from problems.HeightChecker import heightChecker
 
 funcs = {
     "TwoSum": twoSum,
     "CountGoodTriplets": countGoodTriplets,
     "DestinationCity": destCity,
-    "DefangingIPAddress": defangIPaddr
+    "DefangingIPAddress": defangIPaddr,
+    "HeightChecker": heightChecker
 }
 
 def runTest(params, func, tc):
