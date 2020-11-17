@@ -4,13 +4,15 @@ from problems.CountGoodTriplets import countGoodTriplets
 from problems.DestinationCity import destCity
 from problems.DefangingIPAddress import defangIPaddr
 from problems.HeightChecker import heightChecker
+from problems.ShuffleString import restoreString
 
 funcs = {
     "TwoSum": twoSum,
     "CountGoodTriplets": countGoodTriplets,
     "DestinationCity": destCity,
     "DefangingIPAddress": defangIPaddr,
-    "HeightChecker": heightChecker
+    "HeightChecker": heightChecker,
+    "ShuffleString": restoreString
 }
 
 def runTest(params, func, tc):
