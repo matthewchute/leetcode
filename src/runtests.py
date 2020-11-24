@@ -6,6 +6,7 @@ from problems.DefangingIPAddress import defangIPaddr
 from problems.HeightChecker import heightChecker
 from problems.ShuffleString import restoreString
 from problems.ShuffleArray import shuffle
+from problems.RunningSum import runningSum 
 
 funcs = {
     "TwoSum": twoSum,
@@ -14,7 +15,8 @@ funcs = {
     "DefangingIPAddress": defangIPaddr,
     "HeightChecker": heightChecker,
     "ShuffleString": restoreString,
-    "ShuffleArray": shuffle
+    "ShuffleArray": shuffle,
+    "RunningSum": runningSum
 }
 
 def runTest(params, func, tc):
