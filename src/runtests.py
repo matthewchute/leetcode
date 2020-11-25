@@ -7,6 +7,7 @@ from problems.HeightChecker import heightChecker
 from problems.ShuffleString import restoreString
 from problems.ShuffleArray import shuffle
 from problems.RunningSum import runningSum 
+from problems.SumOfAllOddLengthSubarrays import sumOddLengthSubarrays
 
 funcs = {
     "TwoSum": twoSum,
@@ -16,7 +17,8 @@ funcs = {
     "HeightChecker": heightChecker,
     "ShuffleString": restoreString,
     "ShuffleArray": shuffle,
-    "RunningSum": runningSum
+    "RunningSum": runningSum,
+    "SumOfAllOddLengthSubarrays": sumOddLengthSubarrays
 }
 
 def runTest(params, func, tc):
