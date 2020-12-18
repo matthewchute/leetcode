@@ -1,0 +1,8 @@
+{
+    "ToLowerCase": [
+        { "param": 1, "tests": 3 },
+        { "p1": "Hello", "output": "hello" },
+        { "p1": "here", "output": "here" },
+        { "p1": "LOVELY", "output": "lovely" }
+    ]
+}
