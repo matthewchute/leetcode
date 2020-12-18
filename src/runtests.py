@@ -32,6 +32,9 @@ def getFunc(prob):
     elif prob == "MakeTwoArraysEqualByReversingSubArrays":
         from problems.MakeTwoArraysEqualByReversingSubArrays import canBeEqual
         return canBeEqual
+    elif prob == "ToLowerCase":
+        from problems.ToLowerCase import toLowerCase
+        return toLowerCase
 
 def getOutput(params, func, tc):
     """ Desc: runs func with the correct num of params and returns output """
