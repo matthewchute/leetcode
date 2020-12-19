@@ -35,6 +35,9 @@ def getFunc(prob):
     elif prob == "ToLowerCase":
         from problems.ToLowerCase import toLowerCase
         return toLowerCase
+    elif prob == "CoinChange":
+        from problems.CoinChange import coinChange
+        return coinChange
 
 def getOutput(params, func, tc):
     """ Desc: runs func with the correct num of params and returns output """
