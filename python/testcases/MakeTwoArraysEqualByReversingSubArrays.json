@@ -1,0 +1,10 @@
+{
+    "MakeTwoArraysEqualByReversingSubArrays": [
+        { "param": 2, "tests": 5 },
+        { "p1": [1,2,3,4], "p2": [2,4,1,3], "output": true },
+        { "p1": [7], "p2": [7], "output": true },
+        { "p1": [1, 12], "p2": [12, 1], "output": true },
+        { "p1": [3, 7, 9], "p2": [3, 7, 11], "output": false },
+        { "p1": [1, 1, 1, 1, 1], "p2": [1, 1, 1, 1, 1], "output": true }
+    ]
+}
