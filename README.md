@@ -1,8 +1,11 @@
 ## leetcode
-My solutions to leetcode problems. Also includes a test script to run test cases for each problem.  
+My solutions to leetcode problems. Solved with C and Python.  
 
-## Running the test script:
-Run: `python runtests.py <problem>` from src.  
+## Running the C code:
+Run: `make` from corresponding problem directory.    
 
-## Example: 
-`python runtests.py TwoSum`
+## Running the Python test script:
+Run: `python runtests.py <problem>` from Python directory.   
+
+### Example: 
+`python runtests.py TwoSum`  
